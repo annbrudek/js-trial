@@ -9,13 +9,8 @@ console.log(value);
 
 if (value < 0) {
     console.log('Wynik ujemny')
-}
-
-else if (value == 0) {
+} else if (value == 0) {
     console.log('Wynik równy 0')
-
-}
-
-else {
+} else {
     console.log('Wynik dodatni')
 }
