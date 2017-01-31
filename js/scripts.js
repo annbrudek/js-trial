@@ -1,17 +1,17 @@
-var a = prompt('Wprowadź wartość a podstawy trójkąta');
-var h = prompt('Wprowadź wartość wysokości h');
-
 function getTriangleArea(a, h) {
 if ((a <= 0) || (h <= 0)) {
-    alert('Nieprawidłowe dane');
+    console.log('Nieprawidłowe dane');
 } else {
     var triangleArea = a*h/2;
-    alert('Pole trójkąta wynosi ' + triangleArea);
-    return('Pole trójkąta wynosi ' + triangleArea);
+    console.log('Pole trójkąta wynosi ' + triangleArea);
+    return(triangleArea);
     
 } 
 }
 
-console.log(getTriangleArea(a,h));
+console.log(getTriangleArea(10,6));
+var triangle1Area = getTriangleArea(10,15);
+var triangle2Area = getTriangleArea(8,4);
+var triangle3Area = getTriangleArea(4,13);
 
 
