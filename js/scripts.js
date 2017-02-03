@@ -1,11 +1,7 @@
-var withButtonItemsClass = document.getElementsByClassName('button');
+var buttonWithClass = document.getElementsByClassName('button');
 
-console.log(withButtonItemsClass);
-console.log(withButtonItemsClass.length);
-
-var n = withButtonItemsClass.length;
+var n = buttonWithClass.length;
 console.log(n);
-for (x=1; x<=n; x++){
-       withButtonItemsClass.innerText ='Text w button'; 
-       alert(withButtonItemsClass.innerText );
+for (x=0; x<n; x++){
+    console.log(buttonWithClass[x].innerText);
 } 
